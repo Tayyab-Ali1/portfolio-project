@@ -1,0 +1,45 @@
+/* GLOBLE STYLING */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* VARRIABLES */
+:root {
+    /* COLOR SCHEME */
+    --hero-bg-color:rgb(245,253,255);
+    --button-color:rgb(36,31,51);
+    /* --button-hover-color:; */
+    --hero-bg-shape:rgb(36,31,51);
+    --news-letter-bg-color:rgb(245,253,255);
+    --text-color:#241f33;
+    /* FONTS FAMILY */
+    --primary-font:'Sora', sans-serif;
+    --secondry-font:'Work Sans', sans-serif;
+}
+a{text-decoration: none;}
+li{list-style: none;}
+
+/* HEADER DESIGN */
+
+
+/* NEWS LETTER SECTION */
+.new-letter-section{
+    padding: 80px;
+    background-color: var(--news-letter-bg-color);
+    width: 100%;
+    height: 18.75rem;
+}
+.new-letter{
+
+    /* background-color: var(--news-letter-bg-color); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--primary-font);
+}
+.center-content h3{
+    font-size: 40px;
+    text-align: center;
+}
+
